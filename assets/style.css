@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: yellow;
+}
+
+.container{
+    max-width: 80%;
+    margin: 250px auto;
+    position: relative;
+}
+
+.social{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+
+.social ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+.social ul li a{
+    display: inline-block;  
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: relative;
+}
+
+.social ul li a i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.social ul li .facebook i{
+    display: inline-block;
+    color: rgba(35, 35, 191, 0.993);
+}
+
+.social ul li .facebook{
+    border: 2px solid rgba(35, 35, 191, 0.993);
+}
+
+
+.social ul li .twitter i{
+    color: #7995de;
+}
+
+.social ul li .twitter{
+    border: 2px solid #7995de;
+}
+
+.social ul li .google i{
+    color: #c61d1d;
+}
+
+.social ul li .google{
+    border: 2px solid #c61d1d;
+}
+
+.social ul li .linkedin i{
+    color: #264db1;
+}
+
+.social ul li .linkedin{
+    border: 2px solid #264db1;
+}
+
+.social ul li .instagram i{
+    color: #d24141;
+}
+
+.social ul li .instagram{
+    border: 2px solid #d24141;
+}
+
+
+
+
+
+
